@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  	<listener class-name = "utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+	    <class name="testCases.TestCase_01_01_EnteringRequiredValuesInHomePage"/>
+	    <class name="testCases.TestCase_01_02_DisplayingTheEMIPaymentTable"/>
+	    <class name="testCases.TestCase_02_01_StoringTheYearTableInExcel"/>
+	    <class name="testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox"/>
+	    <class name="testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider"/>
+	    <class name="testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox"/>
+	    <class name="testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider"/>
+	    <class name="testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox"/>
+	    <class name="testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider"/>
+	    <class name="testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox"/>
+	    <class name="testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider"/>
+	    <class name="testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox"/>
+	    <class name="testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider"/>
+	    <class name="testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox"/>
+	    <class name="testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider"/>
+	    <class name="testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox"/>
+	    <class name="testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider"/>
+	    <class name="testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox"/>
+	    <class name="testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider"/>
+	    <class name="testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox"/>
+	    <class name="testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider"/>
+	    <class name="testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox"/>
+	    <class name="testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider"/>
+	    <class name="testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox"/>
+	    <class name="testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider"/>
+	    <class name="testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox"/>
+	    <class name="testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider"/>
+	    <class name="testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider"/>
+	    <class name="testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption"/>
+	    <class name="testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2318235\OneDrive - Cognizant\Desktop\HackathonProjectFinal\master.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">41 methods, 2 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenEMISliderAndTextBox">validatingDataFlowBetweenEMISliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenEMISliderAndTextBox">validatingDataFlowBetweenEMISliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_01_02_DisplayingTheEMIPaymentTable" class="method navigator-link" hash-for-method="displayResult">displayResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_01_01_EnteringRequiredValuesInHomePage" class="method navigator-link" hash-for-method="enterDetails">enterDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_02_01_StoringTheYearTableInExcel" class="method navigator-link" hash-for-method="storeTable">storeTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider" class="method navigator-link" hash-for-method="validateDataFlowBetweenInterestRateSliderAndTextBox">validateDataFlowBetweenInterestRateSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider" class="method navigator-link" hash-for-method="validateFeesAndChargesSlider">validateFeesAndChargesSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider" class="method navigator-link" hash-for-method="validateFeesAndChargesSlider">validateFeesAndChargesSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider" class="method navigator-link" hash-for-method="validateFeesAndChargesSlider">validateFeesAndChargesSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox" class="method navigator-link" hash-for-method="validateFeesAndChargesTextBox">validateFeesAndChargesTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox" class="method navigator-link" hash-for-method="validateFeesAndChargesTextBox">validateFeesAndChargesTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox" class="method navigator-link" hash-for-method="validateFeesAndChargesTextBox">validateFeesAndChargesTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider" class="method navigator-link" hash-for-method="validateInterestRateSlider">validateInterestRateSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox" class="method navigator-link" hash-for-method="validateInterestRateTextBox">validateInterestRateTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox" class="method navigator-link" hash-for-method="validateInterestRateTextBox">validateInterestRateTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox" class="method navigator-link" hash-for-method="validateInterestRateTextBox">validateInterestRateTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider" class="method navigator-link" hash-for-method="validateLoanAmountSlider">validateLoanAmountSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider" class="method navigator-link" hash-for-method="validateLoanAmountSlider">validateLoanAmountSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox" class="method navigator-link" hash-for-method="validateLoanAmountTextBox">validateLoanAmountTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox" class="method navigator-link" hash-for-method="validateLoanAmountTextBox">validateLoanAmountTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider" class="method navigator-link" hash-for-method="validateLoanTenureSlider">validateLoanTenureSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider" class="method navigator-link" hash-for-method="validateLoanTenureSlider">validateLoanTenureSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox" class="method navigator-link" hash-for-method="validateLoanTenureTextBox">validateLoanTenureTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox" class="method navigator-link" hash-for-method="validateLoanTenureTextBox">validateLoanTenureTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenInterestRateSliderAndTextBox">validatingDataFlowBetweenInterestRateSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenInterestRateSliderAndTextBox">validatingDataFlowBetweenInterestRateSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenInterestRateSliderAndTextBox">validatingDataFlowBetweenInterestRateSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenLoanAmountSliderAndTextBox">validatingDataFlowBetweenLoanAmountSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenLoanAmountSliderAndTextBox">validatingDataFlowBetweenLoanAmountSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenLoanTenureSliderAndTextBox">validatingDataFlowBetweenLoanTenureSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider" class="method navigator-link" hash-for-method="validatingDataFlowBetweenLoanTenureSliderAndTextBox">validatingDataFlowBetweenLoanTenureSliderAndTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption" class="method navigator-link" hash-for-method="validatingDataFlowBetweenYearAndMonthButton">validatingDataFlowBetweenYearAndMonthButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption" class="method navigator-link" hash-for-method="validatingDataFlowBetweenYearAndMonthButton">validatingDataFlowBetweenYearAndMonthButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider" class="method navigator-link" hash-for-method="validatingEMISlider">validatingEMISlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider" class="method navigator-link" hash-for-method="validatingEMISlider">validatingEMISlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider" class="method navigator-link" hash-for-method="validatingInterestRateSlider">validatingInterestRateSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox" class="method navigator-link" hash-for-method="validatingValidatingEMITextBox">validatingValidatingEMITextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox" class="method navigator-link" hash-for-method="validatingValidatingEMITextBox">validatingValidatingEMITextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenEMISliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenEMISliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenEMISliderAndTextBox</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at utilities.Assertions.fail(Assertions.java:13)
+	at testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox(TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenEMISliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenEMISliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenEMISliderAndTextBox</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at utilities.Assertions.fail(Assertions.java:13)
+	at testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox(TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanAmountTextBox">
+                  </a> <!-- validateLoanAmountTextBox -->
+                  <span class="method-name">validateLoanAmountTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanTenureTextBox">
+                  </a> <!-- validateLoanTenureTextBox -->
+                  <span class="method-name">validateLoanTenureTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenInterestRateSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenInterestRateSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenInterestRateSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanTenureSlider">
+                  </a> <!-- validateLoanTenureSlider -->
+                  <span class="method-name">validateLoanTenureSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingValidatingEMITextBox">
+                  </a> <!-- validatingValidatingEMITextBox -->
+                  <span class="method-name">validatingValidatingEMITextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenFeesAndChargesSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanTenureSlider">
+                  </a> <!-- validateLoanTenureSlider -->
+                  <span class="method-name">validateLoanTenureSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanAmountSlider">
+                  </a> <!-- validateLoanAmountSlider -->
+                  <span class="method-name">validateLoanAmountSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenLoanTenureSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenLoanTenureSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenLoanTenureSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingInterestRateSlider">
+                  </a> <!-- validatingInterestRateSlider -->
+                  <span class="method-name">validatingInterestRateSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingValidatingEMITextBox">
+                  </a> <!-- validatingValidatingEMITextBox -->
+                  <span class="method-name">validatingValidatingEMITextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_01_02_DisplayingTheEMIPaymentTable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayResult">
+                  </a> <!-- displayResult -->
+                  <span class="method-name">displayResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFeesAndChargesTextBox">
+                  </a> <!-- validateFeesAndChargesTextBox -->
+                  <span class="method-name">validateFeesAndChargesTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanAmountSlider">
+                  </a> <!-- validateLoanAmountSlider -->
+                  <span class="method-name">validateLoanAmountSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_01_01_EnteringRequiredValuesInHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDetails">
+                  </a> <!-- enterDetails -->
+                  <span class="method-name">enterDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFeesAndChargesSlider">
+                  </a> <!-- validateFeesAndChargesSlider -->
+                  <span class="method-name">validateFeesAndChargesSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenLoanAmountSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenLoanAmountSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenLoanAmountSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFeesAndChargesTextBox">
+                  </a> <!-- validateFeesAndChargesTextBox -->
+                  <span class="method-name">validateFeesAndChargesTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFeesAndChargesTextBox">
+                  </a> <!-- validateFeesAndChargesTextBox -->
+                  <span class="method-name">validateFeesAndChargesTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenLoanAmountSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenLoanAmountSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenLoanAmountSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInterestRateSlider">
+                  </a> <!-- validateInterestRateSlider -->
+                  <span class="method-name">validateInterestRateSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanAmountTextBox">
+                  </a> <!-- validateLoanAmountTextBox -->
+                  <span class="method-name">validateLoanAmountTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInterestRateTextBox">
+                  </a> <!-- validateInterestRateTextBox -->
+                  <span class="method-name">validateInterestRateTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenFeesAndChargesSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingEMISlider">
+                  </a> <!-- validatingEMISlider -->
+                  <span class="method-name">validatingEMISlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFeesAndChargesSlider">
+                  </a> <!-- validateFeesAndChargesSlider -->
+                  <span class="method-name">validateFeesAndChargesSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInterestRateTextBox">
+                  </a> <!-- validateInterestRateTextBox -->
+                  <span class="method-name">validateInterestRateTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenInterestRateSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenInterestRateSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenInterestRateSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_02_01_StoringTheYearTableInExcel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="storeTable">
+                  </a> <!-- storeTable -->
+                  <span class="method-name">storeTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenYearAndMonthButton">
+                  </a> <!-- validatingDataFlowBetweenYearAndMonthButton -->
+                  <span class="method-name">validatingDataFlowBetweenYearAndMonthButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingEMISlider">
+                  </a> <!-- validatingEMISlider -->
+                  <span class="method-name">validatingEMISlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenYearAndMonthButton">
+                  </a> <!-- validatingDataFlowBetweenYearAndMonthButton -->
+                  <span class="method-name">validatingDataFlowBetweenYearAndMonthButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDataFlowBetweenInterestRateSliderAndTextBox">
+                  </a> <!-- validateDataFlowBetweenInterestRateSliderAndTextBox -->
+                  <span class="method-name">validateDataFlowBetweenInterestRateSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFeesAndChargesSlider">
+                  </a> <!-- validateFeesAndChargesSlider -->
+                  <span class="method-name">validateFeesAndChargesSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanTenureTextBox">
+                  </a> <!-- validateLoanTenureTextBox -->
+                  <span class="method-name">validateLoanTenureTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInterestRateTextBox">
+                  </a> <!-- validateInterestRateTextBox -->
+                  <span class="method-name">validateInterestRateTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenLoanTenureSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenLoanTenureSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenLoanTenureSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenInterestRateSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenInterestRateSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenInterestRateSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox">
+                  </a> <!-- validatingDataFlowBetweenFeesAndChargesSliderAndTextBox -->
+                  <span class="method-name">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2318235\OneDrive - Cognizant\Desktop\HackathonProjectFinal\master.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCase_01_01_EnteringRequiredValuesInHomePage&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_01_02_DisplayingTheEMIPaymentTable&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_02_01_StoringTheYearTableInExcel&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption&quot;/&gt;
+      &lt;class name=&quot;testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (41 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(41);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'storeTable')
+data.setCell(0, 2, 'testCases.TestCase_02_01_StoringTheYearTableInExcel')
+data.setCell(0, 3, 14614);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validatingDataFlowBetweenLoanTenureSliderAndTextBox')
+data.setCell(1, 2, 'testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider')
+data.setCell(1, 3, 7709);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateLoanTenureTextBox')
+data.setCell(2, 2, 'testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox')
+data.setCell(2, 3, 4062);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validatingDataFlowBetweenLoanTenureSliderAndTextBox')
+data.setCell(3, 2, 'testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider')
+data.setCell(3, 3, 3969);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validatingDataFlowBetweenInterestRateSliderAndTextBox')
+data.setCell(4, 2, 'testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider')
+data.setCell(4, 3, 3939);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateDataFlowBetweenInterestRateSliderAndTextBox')
+data.setCell(5, 2, 'testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider')
+data.setCell(5, 3, 3812);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validatingDataFlowBetweenFeesAndChargesSliderAndTextBox')
+data.setCell(6, 2, 'testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider')
+data.setCell(6, 3, 3726);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatingDataFlowBetweenEMISliderAndTextBox')
+data.setCell(7, 2, 'testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider')
+data.setCell(7, 3, 3596);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validatingDataFlowBetweenLoanAmountSliderAndTextBox')
+data.setCell(8, 2, 'testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider')
+data.setCell(8, 3, 3517);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validatingDataFlowBetweenFeesAndChargesSliderAndTextBox')
+data.setCell(9, 2, 'testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider')
+data.setCell(9, 3, 3337);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validatingDataFlowBetweenEMISliderAndTextBox')
+data.setCell(10, 2, 'testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider')
+data.setCell(10, 3, 3291);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'displayResult')
+data.setCell(11, 2, 'testCases.TestCase_01_02_DisplayingTheEMIPaymentTable')
+data.setCell(11, 3, 3069);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'enterDetails')
+data.setCell(12, 2, 'testCases.TestCase_01_01_EnteringRequiredValuesInHomePage')
+data.setCell(12, 3, 3064);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validatingDataFlowBetweenFeesAndChargesSliderAndTextBox')
+data.setCell(13, 2, 'testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider')
+data.setCell(13, 3, 3001);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validatingDataFlowBetweenLoanAmountSliderAndTextBox')
+data.setCell(14, 2, 'testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider')
+data.setCell(14, 3, 2989);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validatingDataFlowBetweenInterestRateSliderAndTextBox')
+data.setCell(15, 2, 'testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider')
+data.setCell(15, 3, 2748);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateInterestRateTextBox')
+data.setCell(16, 2, 'testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox')
+data.setCell(16, 3, 2529);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validatingInterestRateSlider')
+data.setCell(17, 2, 'testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider')
+data.setCell(17, 3, 2446);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validatingDataFlowBetweenYearAndMonthButton')
+data.setCell(18, 2, 'testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption')
+data.setCell(18, 3, 2401);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validatingEMISlider')
+data.setCell(19, 2, 'testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider')
+data.setCell(19, 3, 2311);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validatingValidatingEMITextBox')
+data.setCell(20, 2, 'testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox')
+data.setCell(20, 3, 2307);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateLoanTenureSlider')
+data.setCell(21, 2, 'testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider')
+data.setCell(21, 3, 2274);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validatingEMISlider')
+data.setCell(22, 2, 'testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider')
+data.setCell(22, 3, 2249);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateLoanAmountTextBox')
+data.setCell(23, 2, 'testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox')
+data.setCell(23, 3, 2090);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'validateLoanAmountSlider')
+data.setCell(24, 2, 'testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider')
+data.setCell(24, 3, 2076);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validateLoanTenureTextBox')
+data.setCell(25, 2, 'testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox')
+data.setCell(25, 3, 1995);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validatingDataFlowBetweenInterestRateSliderAndTextBox')
+data.setCell(26, 2, 'testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider')
+data.setCell(26, 3, 1929);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validatingValidatingEMITextBox')
+data.setCell(27, 2, 'testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox')
+data.setCell(27, 3, 1918);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'validateFeesAndChargesTextBox')
+data.setCell(28, 2, 'testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox')
+data.setCell(28, 3, 1889);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'validatingDataFlowBetweenYearAndMonthButton')
+data.setCell(29, 2, 'testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption')
+data.setCell(29, 3, 1867);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validateLoanAmountTextBox')
+data.setCell(30, 2, 'testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox')
+data.setCell(30, 3, 1833);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validateFeesAndChargesSlider')
+data.setCell(31, 2, 'testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider')
+data.setCell(31, 3, 1828);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validateInterestRateTextBox')
+data.setCell(32, 2, 'testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox')
+data.setCell(32, 3, 1809);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'validateLoanTenureSlider')
+data.setCell(33, 2, 'testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider')
+data.setCell(33, 3, 1803);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'validateInterestRateTextBox')
+data.setCell(34, 2, 'testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox')
+data.setCell(34, 3, 1791);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'validateFeesAndChargesSlider')
+data.setCell(35, 2, 'testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider')
+data.setCell(35, 3, 1779);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'validateFeesAndChargesTextBox')
+data.setCell(36, 2, 'testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox')
+data.setCell(36, 3, 1750);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'validateLoanAmountSlider')
+data.setCell(37, 2, 'testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider')
+data.setCell(37, 3, 1695);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'validateFeesAndChargesTextBox')
+data.setCell(38, 2, 'testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox')
+data.setCell(38, 3, 1680);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'validateInterestRateSlider')
+data.setCell(39, 2, 'testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider')
+data.setCell(39, 3, 1386);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'validateFeesAndChargesSlider')
+data.setCell(40, 2, 'testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider')
+data.setCell(40, 3, 1372);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">80 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_01_02_DisplayingTheEMIPaymentTable</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_02_01_StoringTheYearTableInExcel</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_01_01_EnteringRequiredValuesInHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">enterDetails</span>
+                <span class="method-start">16422 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_01_02_DisplayingTheEMIPaymentTable</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">displayResult</span>
+                <span class="method-start">19870 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_02_01_StoringTheYearTableInExcel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">storeTable</span>
+                <span class="method-start">23170 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoanAmountTextBox</span>
+                <span class="method-start">38062 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoanAmountSlider</span>
+                <span class="method-start">40575 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenLoanAmountSliderAndTextBox</span>
+                <span class="method-start">42692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateInterestRateTextBox</span>
+                <span class="method-start">46104 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateInterestRateSlider</span>
+                <span class="method-start">48316 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenInterestRateSliderAndTextBox</span>
+                <span class="method-start">50130 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoanTenureTextBox</span>
+                <span class="method-start">53380 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoanTenureSlider</span>
+                <span class="method-start">55869 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenLoanTenureSliderAndTextBox</span>
+                <span class="method-start">58611 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateFeesAndChargesTextBox</span>
+                <span class="method-start">66688 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateFeesAndChargesSlider</span>
+                <span class="method-start">68720 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</span>
+                <span class="method-start">70516 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingValidatingEMITextBox</span>
+                <span class="method-start">74651 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingEMISlider</span>
+                <span class="method-start">77396 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validatingDataFlowBetweenEMISliderAndTextBox</span>
+                <span class="method-start">80086 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateInterestRateTextBox</span>
+                <span class="method-start">83770 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenInterestRateSliderAndTextBox</span>
+                <span class="method-start">86012 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenInterestRateSliderAndTextBox</span>
+                <span class="method-start">88378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoanTenureTextBox</span>
+                <span class="method-start">92735 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoanTenureSlider</span>
+                <span class="method-start">97245 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenLoanTenureSliderAndTextBox</span>
+                <span class="method-start">99389 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateFeesAndChargesTextBox</span>
+                <span class="method-start">103722 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateFeesAndChargesSlider</span>
+                <span class="method-start">105827 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</span>
+                <span class="method-start">108080 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoanAmountTextBox</span>
+                <span class="method-start">111445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLoanAmountSlider</span>
+                <span class="method-start">113696 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenLoanAmountSliderAndTextBox</span>
+                <span class="method-start">116224 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingValidatingEMITextBox</span>
+                <span class="method-start">120156 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingEMISlider</span>
+                <span class="method-start">122514 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validatingDataFlowBetweenEMISliderAndTextBox</span>
+                <span class="method-start">125269 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateInterestRateTextBox</span>
+                <span class="method-start">129329 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingInterestRateSlider</span>
+                <span class="method-start">132302 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateDataFlowBetweenInterestRateSliderAndTextBox</span>
+                <span class="method-start">135202 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateFeesAndChargesTextBox</span>
+                <span class="method-start">139348 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateFeesAndChargesSlider</span>
+                <span class="method-start">141648 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</span>
+                <span class="method-start">143925 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenYearAndMonthButton</span>
+                <span class="method-start">147612 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatingDataFlowBetweenYearAndMonthButton</span>
+                <span class="method-start">149904 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCase_01_01_EnteringRequiredValuesInHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152696 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

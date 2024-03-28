@@ -1,0 +1,370 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 27 10:59:44 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>155 seconds (155895 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox()'><b>validatingDataFlowBetweenEMISliderAndTextBox</b><br>Test class: testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Assertions.fail(Assertions.java:13)
+	at testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox(TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1528226950", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1528226950'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at utilities.Assertions.fail(Assertions.java:13)
+	at testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox(TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider@6c284af</td></tr>
+<tr>
+<td title='testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox()'><b>validatingDataFlowBetweenEMISliderAndTextBox</b><br>Test class: testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Assertions.fail(Assertions.java:13)
+	at testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox(TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace159536229", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace159536229'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at utilities.Assertions.fail(Assertions.java:13)
+	at testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox(TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider@402c4085</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox.validateFeesAndChargesTextBox()'><b>validateFeesAndChargesTextBox</b><br>Test class: testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox@1caa0244</td></tr>
+<tr>
+<td title='testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption.validatingDataFlowBetweenYearAndMonthButton()'><b>validatingDataFlowBetweenYearAndMonthButton</b><br>Test class: testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption@7d9d0818</td></tr>
+<tr>
+<td title='testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider.validatingDataFlowBetweenInterestRateSliderAndTextBox()'><b>validatingDataFlowBetweenInterestRateSliderAndTextBox</b><br>Test class: testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider@2767e23c</td></tr>
+<tr>
+<td title='testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox.validateInterestRateTextBox()'><b>validateInterestRateTextBox</b><br>Test class: testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox@5890e879</td></tr>
+<tr>
+<td title='testCases.TestCase_01_01_EnteringRequiredValuesInHomePage.enterDetails()'><b>enterDetails</b><br>Test class: testCases.TestCase_01_01_EnteringRequiredValuesInHomePage</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_01_01_EnteringRequiredValuesInHomePage@5afa3c9</td></tr>
+<tr>
+<td title='testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider.validatingDataFlowBetweenInterestRateSliderAndTextBox()'><b>validatingDataFlowBetweenInterestRateSliderAndTextBox</b><br>Test class: testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider@273444fe</td></tr>
+<tr>
+<td title='testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider.validatingDataFlowBetweenInterestRateSliderAndTextBox()'><b>validatingDataFlowBetweenInterestRateSliderAndTextBox</b><br>Test class: testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider@710c2b53</td></tr>
+<tr>
+<td title='testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox.validateFeesAndChargesTextBox()'><b>validateFeesAndChargesTextBox</b><br>Test class: testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox@231f98ef</td></tr>
+<tr>
+<td title='testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider.validatingDataFlowBetweenLoanAmountSliderAndTextBox()'><b>validatingDataFlowBetweenLoanAmountSliderAndTextBox</b><br>Test class: testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider@6caf0677</td></tr>
+<tr>
+<td title='testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox.validateLoanAmountTextBox()'><b>validateLoanAmountTextBox</b><br>Test class: testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox@5b218417</td></tr>
+<tr>
+<td title='testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider.validateFeesAndChargesSlider()'><b>validateFeesAndChargesSlider</b><br>Test class: testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider@7c137fd5</td></tr>
+<tr>
+<td title='testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider.validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()'><b>validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</b><br>Test class: testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider@7ce69770</td></tr>
+<tr>
+<td title='testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider.validateInterestRateSlider()'><b>validateInterestRateSlider</b><br>Test class: testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider@16eb3ea3</td></tr>
+<tr>
+<td title='testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider.validatingEMISlider()'><b>validatingEMISlider</b><br>Test class: testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider@57a78e3</td></tr>
+<tr>
+<td title='testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox.validateLoanTenureTextBox()'><b>validateLoanTenureTextBox</b><br>Test class: testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox@33bc72d1</td></tr>
+<tr>
+<td title='testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider.validateLoanAmountSlider()'><b>validateLoanAmountSlider</b><br>Test class: testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider@645aa696</td></tr>
+<tr>
+<td title='testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider.validateFeesAndChargesSlider()'><b>validateFeesAndChargesSlider</b><br>Test class: testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider@7ce026d3</td></tr>
+<tr>
+<td title='testCases.TestCase_01_02_DisplayingTheEMIPaymentTable.displayResult()'><b>displayResult</b><br>Test class: testCases.TestCase_01_02_DisplayingTheEMIPaymentTable</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_01_02_DisplayingTheEMIPaymentTable@5e2c3d18</td></tr>
+<tr>
+<td title='testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption.validatingDataFlowBetweenYearAndMonthButton()'><b>validatingDataFlowBetweenYearAndMonthButton</b><br>Test class: testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption@221a3fa4</td></tr>
+<tr>
+<td title='testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox.validateFeesAndChargesTextBox()'><b>validateFeesAndChargesTextBox</b><br>Test class: testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox@5032714f</td></tr>
+<tr>
+<td title='testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider.validateLoanTenureSlider()'><b>validateLoanTenureSlider</b><br>Test class: testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider@1a75e76a</td></tr>
+<tr>
+<td title='testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider.validateFeesAndChargesSlider()'><b>validateFeesAndChargesSlider</b><br>Test class: testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider@48bb62</td></tr>
+<tr>
+<td title='testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider.validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()'><b>validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</b><br>Test class: testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider@183ec003</td></tr>
+<tr>
+<td title='testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider.validatingInterestRateSlider()'><b>validatingInterestRateSlider</b><br>Test class: testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider@6440112d</td></tr>
+<tr>
+<td title='testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider.validateLoanAmountSlider()'><b>validateLoanAmountSlider</b><br>Test class: testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider@5b247367</td></tr>
+<tr>
+<td title='testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox.validateLoanTenureTextBox()'><b>validateLoanTenureTextBox</b><br>Test class: testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox</td>
+<td></td>
+<td>4</td>
+<td>testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox@5386659f</td></tr>
+<tr>
+<td title='testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider.validateLoanTenureSlider()'><b>validateLoanTenureSlider</b><br>Test class: testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider@14028087</td></tr>
+<tr>
+<td title='testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider.validatingDataFlowBetweenLoanTenureSliderAndTextBox()'><b>validatingDataFlowBetweenLoanTenureSliderAndTextBox</b><br>Test class: testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider@cecf639</td></tr>
+<tr>
+<td title='testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider.validatingDataFlowBetweenLoanTenureSliderAndTextBox()'><b>validatingDataFlowBetweenLoanTenureSliderAndTextBox</b><br>Test class: testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider</td>
+<td></td>
+<td>7</td>
+<td>testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider@5524cca1</td></tr>
+<tr>
+<td title='testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider.validatingEMISlider()'><b>validatingEMISlider</b><br>Test class: testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider@7e057f43</td></tr>
+<tr>
+<td title='testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox.validateInterestRateTextBox()'><b>validateInterestRateTextBox</b><br>Test class: testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox@6fa51cd4</td></tr>
+<tr>
+<td title='testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox.validateLoanAmountTextBox()'><b>validateLoanAmountTextBox</b><br>Test class: testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox@1750fbeb</td></tr>
+<tr>
+<td title='testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider.validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()'><b>validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</b><br>Test class: testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider@353352b6</td></tr>
+<tr>
+<td title='testCases.TestCase_02_01_StoringTheYearTableInExcel.storeTable()'><b>storeTable</b><br>Test class: testCases.TestCase_02_01_StoringTheYearTableInExcel</td>
+<td></td>
+<td>14</td>
+<td>testCases.TestCase_02_01_StoringTheYearTableInExcel@cc43f62</td></tr>
+<tr>
+<td title='testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox.validateInterestRateTextBox()'><b>validateInterestRateTextBox</b><br>Test class: testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox@413d1baf</td></tr>
+<tr>
+<td title='testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox.validatingValidatingEMITextBox()'><b>validatingValidatingEMITextBox</b><br>Test class: testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox</td>
+<td></td>
+<td>2</td>
+<td>testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox@4681c175</td></tr>
+<tr>
+<td title='testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider.validateDataFlowBetweenInterestRateSliderAndTextBox()'><b>validateDataFlowBetweenInterestRateSliderAndTextBox</b><br>Test class: testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider@31ea9581</td></tr>
+<tr>
+<td title='testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox.validatingValidatingEMITextBox()'><b>validatingValidatingEMITextBox</b><br>Test class: testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox</td>
+<td></td>
+<td>1</td>
+<td>testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox@6e9a5ed8</td></tr>
+<tr>
+<td title='testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider.validatingDataFlowBetweenLoanAmountSliderAndTextBox()'><b>validatingDataFlowBetweenLoanAmountSliderAndTextBox</b><br>Test class: testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider</td>
+<td></td>
+<td>3</td>
+<td>testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider@268f106e</td></tr>
+</table><p>
+</body>
+</html>

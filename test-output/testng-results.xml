@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="41" passed="39" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T10:59:44 IST" name="Suite" finished-at="2024-03-27T11:02:20 IST" duration-ms="155895">
+    <groups>
+    </groups>
+    <test started-at="2024-03-27T10:59:44 IST" name="Test" finished-at="2024-03-27T11:02:20 IST" duration-ms="155895">
+      <class name="testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider">
+        <test-method signature="validatingDataFlowBetweenInterestRateSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider@2767e23c]" started-at="2024-03-27T11:01:12 IST" name="validatingDataFlowBetweenInterestRateSliderAndTextBox" finished-at="2024-03-27T11:01:14 IST" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenInterestRateSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_17_LoanAmtCalculator_ValidatingInterestRateSlider -->
+      <class name="testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox">
+        <test-method signature="validateLoanAmountTextBox()[pri:0, instance:testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox@5b218417]" started-at="2024-03-27T11:00:24 IST" name="validateLoanAmountTextBox" finished-at="2024-03-27T11:00:26 IST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountTextBox -->
+      </class> <!-- testCases.TestCase_03_01_EMICalculator_ValidatingLoanAmountTextBox -->
+      <class name="testCases.TestCase_02_01_StoringTheYearTableInExcel">
+        <test-method signature="storeTable()[pri:0, instance:testCases.TestCase_02_01_StoringTheYearTableInExcel@cc43f62]" started-at="2024-03-27T11:00:09 IST" name="storeTable" finished-at="2024-03-27T11:00:23 IST" duration-ms="14614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeTable -->
+      </class> <!-- testCases.TestCase_02_01_StoringTheYearTableInExcel -->
+      <class name="testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox">
+        <test-method signature="validatingValidatingEMITextBox()[pri:0, instance:testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox@6e9a5ed8]" started-at="2024-03-27T11:01:46 IST" name="validatingValidatingEMITextBox" finished-at="2024-03-27T11:01:48 IST" duration-ms="1918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingValidatingEMITextBox -->
+      </class> <!-- testCases.TestCase_03_28_LoanTenureCalculator_ValidatingEMITextBox -->
+      <class name="testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider">
+        <test-method signature="validateFeesAndChargesSlider()[pri:0, instance:testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider@7c137fd5]" started-at="2024-03-27T11:02:07 IST" name="validateFeesAndChargesSlider" finished-at="2024-03-27T11:02:09 IST" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeesAndChargesSlider -->
+      </class> <!-- testCases.TestCase_03_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider -->
+      <class name="testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox">
+        <test-method signature="validateLoanTenureTextBox()[pri:0, instance:testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox@5386659f]" started-at="2024-03-27T11:01:18 IST" name="validateLoanTenureTextBox" finished-at="2024-03-27T11:01:22 IST" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureTextBox -->
+      </class> <!-- testCases.TestCase_03_19_LoanAmtCalculator_ValidatingLoanTenureTextBox -->
+      <class name="testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenLoanTenureSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider@5524cca1]" started-at="2024-03-27T11:00:44 IST" name="validatingDataFlowBetweenLoanTenureSliderAndTextBox" finished-at="2024-03-27T11:00:52 IST" duration-ms="7709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenLoanTenureSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider -->
+      <class name="testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenEMISliderAndTextBox()[pri:0, instance:testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider@402c4085]" started-at="2024-03-27T11:01:06 IST" name="validatingDataFlowBetweenEMISliderAndTextBox" finished-at="2024-03-27T11:01:09 IST" duration-ms="3291" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at utilities.Assertions.fail(Assertions.java:13)
+at testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox(TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenEMISliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider -->
+      <class name="testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption">
+        <test-method signature="validatingDataFlowBetweenYearAndMonthButton()[pri:0, instance:testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption@7d9d0818]" started-at="2024-03-27T11:02:13 IST" name="validatingDataFlowBetweenYearAndMonthButton" finished-at="2024-03-27T11:02:15 IST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenYearAndMonthButton -->
+      </class> <!-- testCases.TestCase_03_37_EMICalculator_ValidationForYearAndMonthOption -->
+      <class name="testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider">
+        <test-method signature="validateLoanAmountSlider()[pri:0, instance:testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider@5b247367]" started-at="2024-03-27T11:01:39 IST" name="validateLoanAmountSlider" finished-at="2024-03-27T11:01:41 IST" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountSlider -->
+      </class> <!-- testCases.TestCase_03_26_LoanTenureCalculator_ValidatingLoanAmountSlider -->
+      <class name="testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider">
+        <test-method signature="validateInterestRateSlider()[pri:0, instance:testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider@16eb3ea3]" started-at="2024-03-27T11:00:34 IST" name="validateInterestRateSlider" finished-at="2024-03-27T11:00:35 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInterestRateSlider -->
+      </class> <!-- testCases.TestCase_03_05_EMICalculator_ValidatingInterestRateSlider -->
+      <class name="testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption">
+        <test-method signature="validatingDataFlowBetweenYearAndMonthButton()[pri:0, instance:testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption@221a3fa4]" started-at="2024-03-27T11:02:16 IST" name="validatingDataFlowBetweenYearAndMonthButton" finished-at="2024-03-27T11:02:18 IST" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenYearAndMonthButton -->
+      </class> <!-- testCases.TestCase_03_38_LoanAmtCalculator_ValidationForYearAndMonthOption -->
+      <class name="testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox">
+        <test-method signature="validateLoanAmountTextBox()[pri:0, instance:testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox@1750fbeb]" started-at="2024-03-27T11:01:37 IST" name="validateLoanAmountTextBox" finished-at="2024-03-27T11:01:39 IST" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountTextBox -->
+      </class> <!-- testCases.TestCase_03_25_LoanTenureCalculator_ValidatingLoanAmountTextBox -->
+      <class name="testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenInterestRateSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider@710c2b53]" started-at="2024-03-27T11:01:14 IST" name="validatingDataFlowBetweenInterestRateSliderAndTextBox" finished-at="2024-03-27T11:01:18 IST" duration-ms="3939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenInterestRateSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_18_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider -->
+      <class name="testCases.TestCase_01_02_DisplayingTheEMIPaymentTable">
+        <test-method signature="displayResult()[pri:0, instance:testCases.TestCase_01_02_DisplayingTheEMIPaymentTable@5e2c3d18]" started-at="2024-03-27T11:00:05 IST" name="displayResult" finished-at="2024-03-27T11:00:09 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayResult -->
+      </class> <!-- testCases.TestCase_01_02_DisplayingTheEMIPaymentTable -->
+      <class name="testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider">
+        <test-method signature="validatingEMISlider()[pri:0, instance:testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider@7e057f43]" started-at="2024-03-27T11:01:48 IST" name="validatingEMISlider" finished-at="2024-03-27T11:01:50 IST" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingEMISlider -->
+      </class> <!-- testCases.TestCase_03_29_LoanTenureCalculator_ValidatingEMISlider -->
+      <class name="testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenLoanTenureSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider@cecf639]" started-at="2024-03-27T11:01:25 IST" name="validatingDataFlowBetweenLoanTenureSliderAndTextBox" finished-at="2024-03-27T11:01:29 IST" duration-ms="3969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenLoanTenureSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_21_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider -->
+      <class name="testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider@353352b6]" started-at="2024-03-27T11:00:56 IST" name="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox" finished-at="2024-03-27T11:01:00 IST" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenFeesAndChargesSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_12_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider -->
+      <class name="testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenEMISliderAndTextBox()[pri:0, instance:testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider@6c284af]" started-at="2024-03-27T11:01:51 IST" name="validatingDataFlowBetweenEMISliderAndTextBox" finished-at="2024-03-27T11:01:54 IST" duration-ms="3596" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at utilities.Assertions.fail(Assertions.java:13)
+at testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.validatingDataFlowBetweenEMISliderAndTextBox(TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenEMISliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider -->
+      <class name="testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox">
+        <test-method signature="validateInterestRateTextBox()[pri:0, instance:testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox@5890e879]" started-at="2024-03-27T11:01:55 IST" name="validateInterestRateTextBox" finished-at="2024-03-27T11:01:57 IST" duration-ms="2529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInterestRateTextBox -->
+      </class> <!-- testCases.TestCase_03_31_LoanTenureCalculator_ValidatingInterestRateTextBox -->
+      <class name="testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox">
+        <test-method signature="validateInterestRateTextBox()[pri:0, instance:testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox@413d1baf]" started-at="2024-03-27T11:00:32 IST" name="validateInterestRateTextBox" finished-at="2024-03-27T11:00:34 IST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInterestRateTextBox -->
+      </class> <!-- testCases.TestCase_03_04_EMICalculator_ValidatingInterestRateTextBox -->
+      <class name="testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox">
+        <test-method signature="validateFeesAndChargesTextBox()[pri:0, instance:testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox@1caa0244]" started-at="2024-03-27T11:01:29 IST" name="validateFeesAndChargesTextBox" finished-at="2024-03-27T11:01:31 IST" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeesAndChargesTextBox -->
+      </class> <!-- testCases.TestCase_03_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox -->
+      <class name="testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider">
+        <test-method signature="validateLoanTenureSlider()[pri:0, instance:testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider@1a75e76a]" started-at="2024-03-27T11:00:41 IST" name="validateLoanTenureSlider" finished-at="2024-03-27T11:00:44 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureSlider -->
+      </class> <!-- testCases.TestCase_03_08_EMICalculator_ValidatingLoanTenureSlider -->
+      <class name="testCases.TestCase_01_01_EnteringRequiredValuesInHomePage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TestCase_01_01_EnteringRequiredValuesInHomePage@5afa3c9]" started-at="2024-03-27T10:59:46 IST" name="setUp" finished-at="2024-03-27T11:00:02 IST" duration-ms="16284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterDetails()[pri:0, instance:testCases.TestCase_01_01_EnteringRequiredValuesInHomePage@5afa3c9]" started-at="2024-03-27T11:00:02 IST" name="enterDetails" finished-at="2024-03-27T11:00:05 IST" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase_01_01_EnteringRequiredValuesInHomePage@5afa3c9]" started-at="2024-03-27T11:02:18 IST" name="tearDown" finished-at="2024-03-27T11:02:20 IST" duration-ms="1824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCase_01_01_EnteringRequiredValuesInHomePage -->
+      <class name="testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider">
+        <test-method signature="validatingInterestRateSlider()[pri:0, instance:testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider@6440112d]" started-at="2024-03-27T11:01:58 IST" name="validatingInterestRateSlider" finished-at="2024-03-27T11:02:00 IST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingInterestRateSlider -->
+      </class> <!-- testCases.TestCase_03_32_LoanTenureCalculator_ValidatingInterestRateSlider -->
+      <class name="testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenLoanAmountSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider@268f106e]" started-at="2024-03-27T11:01:42 IST" name="validatingDataFlowBetweenLoanAmountSliderAndTextBox" finished-at="2024-03-27T11:01:45 IST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenLoanAmountSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_27_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider -->
+      <class name="testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider">
+        <test-method signature="validatingEMISlider()[pri:0, instance:testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider@57a78e3]" started-at="2024-03-27T11:01:03 IST" name="validatingEMISlider" finished-at="2024-03-27T11:01:05 IST" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingEMISlider -->
+      </class> <!-- testCases.TestCase_03_14_LoanAmtCalculator_ValidatingEMISlider -->
+      <class name="testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox">
+        <test-method signature="validateLoanTenureTextBox()[pri:0, instance:testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox@33bc72d1]" started-at="2024-03-27T11:00:39 IST" name="validateLoanTenureTextBox" finished-at="2024-03-27T11:00:41 IST" duration-ms="1995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureTextBox -->
+      </class> <!-- testCases.TestCase_03_07_EMICalculator_ValidatingLoanTenureTextBox -->
+      <class name="testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider@183ec003]" started-at="2024-03-27T11:02:10 IST" name="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox" finished-at="2024-03-27T11:02:13 IST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenFeesAndChargesSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_36_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider -->
+      <class name="testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox">
+        <test-method signature="validatingValidatingEMITextBox()[pri:0, instance:testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox@4681c175]" started-at="2024-03-27T11:01:00 IST" name="validatingValidatingEMITextBox" finished-at="2024-03-27T11:01:03 IST" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingValidatingEMITextBox -->
+      </class> <!-- testCases.TestCase_03_13_LoanAmtCalculator_ValidatingEMITextBox -->
+      <class name="testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox">
+        <test-method signature="validateInterestRateTextBox()[pri:0, instance:testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox@6fa51cd4]" started-at="2024-03-27T11:01:09 IST" name="validateInterestRateTextBox" finished-at="2024-03-27T11:01:11 IST" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInterestRateTextBox -->
+      </class> <!-- testCases.TestCase_03_16_LoanAmtCalculator_ValidatingInterestRateTextBox -->
+      <class name="testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider">
+        <test-method signature="validateLoanTenureSlider()[pri:0, instance:testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider@14028087]" started-at="2024-03-27T11:01:23 IST" name="validateLoanTenureSlider" finished-at="2024-03-27T11:01:25 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureSlider -->
+      </class> <!-- testCases.TestCase_03_20_LoanAmtCalculator_ValidatingLoanTenureSlider -->
+      <class name="testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider@7ce69770]" started-at="2024-03-27T11:01:34 IST" name="validatingDataFlowBetweenFeesAndChargesSliderAndTextBox" finished-at="2024-03-27T11:01:37 IST" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenFeesAndChargesSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_24_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider -->
+      <class name="testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider">
+        <test-method signature="validateFeesAndChargesSlider()[pri:0, instance:testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider@7ce026d3]" started-at="2024-03-27T11:01:31 IST" name="validateFeesAndChargesSlider" finished-at="2024-03-27T11:01:33 IST" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeesAndChargesSlider -->
+      </class> <!-- testCases.TestCase_03_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider -->
+      <class name="testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox">
+        <test-method signature="validateFeesAndChargesTextBox()[pri:0, instance:testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox@5032714f]" started-at="2024-03-27T11:00:52 IST" name="validateFeesAndChargesTextBox" finished-at="2024-03-27T11:00:54 IST" duration-ms="1680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeesAndChargesTextBox -->
+      </class> <!-- testCases.TestCase_03_10_EMICalculator_ValidatingFeesAndChargesTextBox -->
+      <class name="testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox">
+        <test-method signature="validateFeesAndChargesTextBox()[pri:0, instance:testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox@231f98ef]" started-at="2024-03-27T11:02:05 IST" name="validateFeesAndChargesTextBox" finished-at="2024-03-27T11:02:07 IST" duration-ms="1889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeesAndChargesTextBox -->
+      </class> <!-- testCases.TestCase_03_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox -->
+      <class name="testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider">
+        <test-method signature="validateDataFlowBetweenInterestRateSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider@31ea9581]" started-at="2024-03-27T11:02:01 IST" name="validateDataFlowBetweenInterestRateSliderAndTextBox" finished-at="2024-03-27T11:02:05 IST" duration-ms="3812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDataFlowBetweenInterestRateSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_33_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider -->
+      <class name="testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider">
+        <test-method signature="validateFeesAndChargesSlider()[pri:0, instance:testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider@48bb62]" started-at="2024-03-27T11:00:54 IST" name="validateFeesAndChargesSlider" finished-at="2024-03-27T11:00:56 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeesAndChargesSlider -->
+      </class> <!-- testCases.TestCase_03_11_EMICalculator_ValidatingFeesAndChargesSlider -->
+      <class name="testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider">
+        <test-method signature="validateLoanAmountSlider()[pri:0, instance:testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider@645aa696]" started-at="2024-03-27T11:00:26 IST" name="validateLoanAmountSlider" finished-at="2024-03-27T11:00:28 IST" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountSlider -->
+      </class> <!-- testCases.TestCase_03_02_EMICalculator_ValidatingLoanAmountSlider -->
+      <class name="testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenInterestRateSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider@273444fe]" started-at="2024-03-27T11:00:36 IST" name="validatingDataFlowBetweenInterestRateSliderAndTextBox" finished-at="2024-03-27T11:00:39 IST" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenInterestRateSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_06_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider -->
+      <class name="testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider">
+        <test-method signature="validatingDataFlowBetweenLoanAmountSliderAndTextBox()[pri:0, instance:testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider@6caf0677]" started-at="2024-03-27T11:00:28 IST" name="validatingDataFlowBetweenLoanAmountSliderAndTextBox" finished-at="2024-03-27T11:00:31 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDataFlowBetweenLoanAmountSliderAndTextBox -->
+      </class> <!-- testCases.TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

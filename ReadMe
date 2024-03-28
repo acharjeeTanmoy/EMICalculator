@@ -1,0 +1,98 @@
+Name - Tanmoy Acharjee
+Employee ID - 2318235
+Role - CSD Trainee
+Cohort Code - CSDQEA24QE006
+
+Find the Interest Amount for current year
+Problem Statement : Find the Interest Amount for current year
+1. Buying a  car of 15 Lac
+2. Interest rate of 9.5%
+3. Tenure should be 1 year.
+Display the interest amount & principal amount of first month.
+(Suggested Site: emicalculator.net  / HDFCbank.com etc. however you are free to use any other legitimate site)
+
+Detailed Description: Hackathon Ideas
+Requirement 1 -- Find the EMI for Car with price of 15 Lac, Interest rate of 9.5% & Tenure 1 year; Display the interest amount & principal amount for one month
+Requirement 2 -- From Menu, pick Home Loan EMI Calculator, fill relevant details & extract all the data from  year on year table & store in excel;
+Requirement 3 -- From Menu, pick Loan Calculator and under EMI calculator, do all UI check for text box & scales; change the Loan tenure for year & month,check the change in scale; Re-use the same validation for Loan Amount Calculator & Loan Tenure Calculator
+(Suggested Site: emicalculator.net  however you are free to use any other legitimate site)
+
+appUrl - https://emicalculator.net/
+
+***Test Cases For the above Requirement are***
+
+---
+For Home Page     
+1. **TestCase_01_01**: Entering Required Values In Home Page
+2. **TestCase_01_02**: Displaying The EMI Payment Table
+---
+
+---
+For Home Loan EMI Calculator Page
+3. **TestCase_02_01**: Storing The Year Table In Excel
+---
+
+---
+For Loan Calculator Page
+4. **TestCase_03_01**: EMICalculator - Validating Loan Amount TextBox
+5. **TestCase_03_02**: EMICalculator - Validating Loan Amount Slider
+6. **TestCase_03_03**: EMICalculator - Scale Change For Loan Amount TextBox And Slider
+7. **TestCase_03_04**: EMICalculator - Validating Interest Rate TextBox
+8. **TestCase_03_05**: EMICalculator - Validating Interest Rate Slider
+9. **TestCase_03_06**: EMICalculator - Scale Change For Interest Rate TextBox And Slider
+10. **TestCase_03_07**: EMICalculator - Validating Loan Tenure TextBox
+11. **TestCase_03_08**: EMICalculator - Validating Loan Tenure Slider
+12. **TestCase_03_09**: EMICalculator - Scale Change For Loan Tenure TextBox And Slider
+13. **TestCase_03_10**: EMICalculator - Validating Fees And Charges TextBox
+14. **TestCase_03_11**: EMICalculator - Validating Fees And Charges Slider
+15. **TestCase_03_12**: EMICalculator - Scale Change For Fees And Charges TextBox And Slider
+16. **TestCase_03_13**: Loan Amount Calculator - Validating EMI TextBox
+17. **TestCase_03_14**: Loan Amount Calculator - Validating EMI Slider
+18. **TestCase_03_15**: Loan Amount Calculator - Scale Change For EMI TextBox And Slider
+19. **TestCase_03_16**: Loan Amount Calculator - Validating Interest Rate TextBox
+20. **TestCase_03_17**: Loan Amount Calculator - Validating Interest Rate Slider
+21. **TestCase_03_18**: Loan Amount Calculator - Scale Change For Interest Rate TextBox And Slider
+22. **TestCase_03_19**: Loan Amount Calculator - Validating Loan Tenure TextBox
+23. **TestCase_03_20**: Loan Amount Calculator - Validating Loan Tenure Slider
+24. **TestCase_03_21**: Loan Amount Calculator - Scale Change For Loan Tenure TextBox And Slider
+25. **TestCase_03_22**: Loan Amount Calculator - Validating Fees And Charges TextBox
+26. **TestCase_03_23**: Loan Amount Calculator - Validating Fees And Charges Slider
+27. **TestCase_03_24**: Loan Amount Calculator - Scale Change For Fees And Charges TextBox And Slider
+28. **TestCase_03_25**: Loan Tenure Calculator - Validating Loan Amount TextBox
+29. **TestCase_03_26**: Loan Tenure Calculator - Validating Loan Amount Slider
+30. **TestCase_03_27**: Loan Tenure Calculator - Scale Change For Loan Amount TextBox And Slider
+31. **TestCase_03_28**: Loan Tenure Calculator - Validating EMI TextBox
+32. **TestCase_03_29**: Loan Tenure Calculator - Validating EMI Slider
+33. **TestCase_03_30**: Loan Tenure Calculator - Scale Change For EMI TextBox And Slider
+34. **TestCase_03_31**: Loan Tenure Calculator - Validating Interest Rate TextBox
+35. **TestCase_03_32**: Loan Tenure Calculator - Validating Interest Rate Slider
+36. **TestCase_03_33**: Loan Tenure Calculator - Scale Change For Interest Rate TextBox And Slider
+37. **TestCase_03_34**: Loan Tenure Calculator - Validating Fees And Charges TextBox
+38. **TestCase_03_35**: Loan Tenure Calculator - Validating Fees And Charges Slider
+39. **TestCase_03_36**: Loan Tenure Calculator - Scale Change For Fees And Charges TextBox And Slider
+40. **TestCase_03_37**: EMICalculator - Validation For Year And Month Option
+41. **TestCase_03_38**: Loan Amount Calculator - Validation For Year And Month Option
+----
+
+Utility Classes---
+1. AddFluentWait.java - For adding fluent wait for various components and conditions
+2. WriteExcel.java - For Storing asked data in Excel sheet from the WebPage
+3. Assertions.java - For applying the assertions to the test Cases
+4. ExtentReportManager.java - For Generating Extent reports
+
+Defects Found---
+1. DF_01 - Generated for TestCase_03_15_LoanAmtCalculator_ScaleChangeForEMITextBoxAndSlider
+           The EMI Text Box is not working properly, while sliding the value is showing as 50,000.00 but after a few ms
+           it is getting changed to some random values.
+           
+2. DF_02 - Generated for TestCase_03_30_LoanTenureCalculator_ScaleChangeForEMITextBoxAndSlider
+           The EMI Text Box is not working properly, while sliding the value is showing as 50,000.00 but after a few ms
+           it is getting changed to some random values.          
+           
+Technologies Used---
+1. Java Programming Language
+2. Selenium Automation Tool
+3. TestNG Framework
+4. AventStack
+5. Apache Log4j
+6. Apache POI
